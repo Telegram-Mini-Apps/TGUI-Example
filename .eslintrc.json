@@ -1,0 +1,42 @@
+{
+  "extends": [
+    "react-app",
+    "react-app/jest"
+  ],
+  "parserOptions": {
+    "project": "./tsconfig.json",
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true,
+      "restParams": true,
+      "spread": true
+    }
+  },
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "globals": {
+    "Promise": true,
+    "Set": true,
+    "Map": true
+  },
+  "rules": {
+    "react/display-name": "off",
+    "react/react-in-jsx-scope": "off",
+    "@typescript-eslint/no-magic-numbers": "off",
+    "@typescript-eslint/explicit-member-accessibility": "off",
+    "@typescript-eslint/no-extra-parens": ["error", "all", {
+      "ignoreJSX": "all"
+    }],
+    "@typescript-eslint/no-unused-vars": ["error", {
+      "ignoreRestSiblings": true
+    }],
+    "no-restricted-imports": ["error", {
+      "patterns": ["@vkontakte/icons/dist/*"]
+    }],
+    "no-shadow": "off",
+    "@typescript-eslint/no-shadow": "warn"
+  }
+}

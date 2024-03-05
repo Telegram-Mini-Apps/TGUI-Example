@@ -1,26 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import { AppRoot, List } from '@xelene/tgui';
+import { CellSection } from './components/CellSection';
+import { FormSection } from './components/FormSection/FormSection';
+import { BannerSection } from './components/BannerSection';
+import { TimelineSection } from './components/TimelineSection/TimelineSection';
+import { TooltipSection } from './components/TooltipSection/TooltipSection';
+import { ModalSection } from './components/ModalSection/ModalSection';
 
-export default App;
+export const App = () => (
+  <AppRoot>
+    <List>
+      <CellSection />
+      <FormSection />
+      <BannerSection />
+      <TimelineSection />
+      <TooltipSection />
+      <ModalSection />
+    </List>
+  </AppRoot>
+);
