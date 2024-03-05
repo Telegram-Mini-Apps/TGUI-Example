@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/XeleneStudio/TGUI-Example/static/css/main.726d0315.css",
+    "main.js": "/XeleneStudio/TGUI-Example/static/js/main.3ef0d3b9.js",
+    "static/media/svg": "/XeleneStudio/TGUI-Example/static/media/2d82b92e720462f8dd3b.2d82b92e720462f8dd3b.svg",
+    "index.html": "/XeleneStudio/TGUI-Example/index.html",
+    "main.726d0315.css.map": "/XeleneStudio/TGUI-Example/static/css/main.726d0315.css.map",
+    "main.3ef0d3b9.js.map": "/XeleneStudio/TGUI-Example/static/js/main.3ef0d3b9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.726d0315.css",
+    "static/js/main.3ef0d3b9.js"
+  ]
+}
