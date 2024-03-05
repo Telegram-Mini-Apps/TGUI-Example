@@ -2562,10 +2562,10 @@
     "@webassemblyjs/ast" "1.11.6"
     "@xtuc/long" "4.2.2"
 
-"@xelene/tgui@2.0.2":
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/@xelene/tgui/-/tgui-2.0.2.tgz#d1daf88b1b1a99da5c9efbb0fa691301651e716f"
-  integrity sha512-5yVFWzzrT+t/Bzd91dZhpPhJeYgv2LuvKYTMKLKi73OkkOyPl3O8Zy8EyHS/t0HyaXxyPFL+LboK0WPqS7xQww==
+"@xelene/tgui@2.0.3":
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/@xelene/tgui/-/tgui-2.0.3.tgz#767426e8cd00e074d168d27bb413c1f0e9acbbe2"
+  integrity sha512-u56fK03LBPgJv96LDUAk9hYEzMSpB0WvilmUtoZIM0fSg4zM7Kvu+mq53bIwVPJtOy9G6bhSEKzlZYdj77lpnQ==
   dependencies:
     "@floating-ui/react-dom" "^2.0.8"
     "@swc/helpers" "^0.5.3"
