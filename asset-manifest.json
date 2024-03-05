@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/XeleneStudio/TGUI-Example/static/css/main.726d0315.css",
-    "main.js": "/XeleneStudio/TGUI-Example/static/js/main.3ef0d3b9.js",
-    "static/media/svg": "/XeleneStudio/TGUI-Example/static/media/2d82b92e720462f8dd3b.2d82b92e720462f8dd3b.svg",
-    "index.html": "/XeleneStudio/TGUI-Example/index.html",
-    "main.726d0315.css.map": "/XeleneStudio/TGUI-Example/static/css/main.726d0315.css.map",
-    "main.3ef0d3b9.js.map": "/XeleneStudio/TGUI-Example/static/js/main.3ef0d3b9.js.map"
+    "main.css": "./static/css/main.9ca813cf.css",
+    "main.js": "./static/js/main.3ef0d3b9.js",
+    "static/media/svg": "./static/media/2d82b92e720462f8dd3b.2d82b92e720462f8dd3b.svg",
+    "index.html": "./index.html",
+    "main.9ca813cf.css.map": "./static/css/main.9ca813cf.css.map",
+    "main.3ef0d3b9.js.map": "./static/js/main.3ef0d3b9.js.map"
   },
   "entrypoints": [
-    "static/css/main.726d0315.css",
+    "static/css/main.9ca813cf.css",
     "static/js/main.3ef0d3b9.js"
   ]
 }
