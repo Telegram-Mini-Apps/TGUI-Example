@@ -2562,15 +2562,22 @@
     "@webassemblyjs/ast" "1.11.6"
     "@xtuc/long" "4.2.2"
 
-"@xelene/tgui@2.0.3":
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/@xelene/tgui/-/tgui-2.0.3.tgz#767426e8cd00e074d168d27bb413c1f0e9acbbe2"
-  integrity sha512-u56fK03LBPgJv96LDUAk9hYEzMSpB0WvilmUtoZIM0fSg4zM7Kvu+mq53bIwVPJtOy9G6bhSEKzlZYdj77lpnQ==
+"@xelene/tgui@2.0.6":
+  version "2.0.6"
+  resolved "https://registry.yarnpkg.com/@xelene/tgui/-/tgui-2.0.6.tgz#fe3d8b98034ba56367728332915b99ca5a0f4b76"
+  integrity sha512-del9T8Mi8o1bMxS7+FeDEzdQkGV/d7Fdoohs0ZG6tBP3hlM11nf5dZbRE7lOUgNU+4nLgCGVZscfQwKRswOZlQ==
   dependencies:
     "@floating-ui/react-dom" "^2.0.8"
     "@swc/helpers" "^0.5.3"
     "@twa-dev/types" "^7.0.0"
-    vaul "^0.9.0"
+    "@xelene/vaul-with-scroll-fix" "0.1.4"
+
+"@xelene/vaul-with-scroll-fix@0.1.4":
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/@xelene/vaul-with-scroll-fix/-/vaul-with-scroll-fix-0.1.4.tgz#777ff30d43e4181cb3d02c004e93efbd216a5063"
+  integrity sha512-R9J7y92rzZKIQLtFHKtzRsb4x8G26cvwGIDSf7OQZCdROFt7xic4Yz1BlFYjm8oiQsYV4SFSQfOzatZjvxz5XQ==
+  dependencies:
+    "@radix-ui/react-dialog" "^1.0.4"
 
 "@xtuc/ieee754@^1.2.0":
   version "1.2.0"
@@ -9365,13 +9372,6 @@ vary@~1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha512-BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3eIZ/PXqg==
-
-vaul@^0.9.0:
-  version "0.9.0"
-  resolved "https://registry.yarnpkg.com/vaul/-/vaul-0.9.0.tgz#e45a653f89d6c5c8b3c32bac29b2ae3457481d9e"
-  integrity sha512-bZSySGbAHiTXmZychprnX/dE0EsSige88xtyyL3/MCRbrFotRPQZo7UdydGXZWw+CKbNOw5Ow8gwAo93/nB/Cg==
-  dependencies:
-    "@radix-ui/react-dialog" "^1.0.4"
 
 w3c-hr-time@^1.0.2:
   version "1.0.2"
