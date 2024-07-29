@@ -1996,6 +1996,16 @@
   dependencies:
     tslib "^2.4.0"
 
+"@telegram-apps/telegram-ui@2.0.6":
+  version "2.1.6"
+  resolved "https://registry.yarnpkg.com/@telegram-apps/telegram-ui/-/telegram-ui-2.1.6.tgz#c17420e7e274e2ba0165d16ce633e1ef575b2d81"
+  integrity sha512-KJ26GOO8dQcu9jmxydXXYjtL1HP7U2Za0Rm+cQABLrhcxLJKkWavh8du8sbVNUcrs/izYYWf6xreV7aUobi81g==
+  dependencies:
+    "@floating-ui/react-dom" "^2.0.8"
+    "@swc/helpers" "^0.5.3"
+    "@twa-dev/types" "^7.0.0"
+    "@xelene/vaul-with-scroll-fix" "0.1.4"
+
 "@tootallnate/once@1":
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/@tootallnate/once/-/once-1.1.2.tgz#ccb91445360179a04e7fe6aff78c00ffc1eeaf82"
@@ -2561,16 +2571,6 @@
   dependencies:
     "@webassemblyjs/ast" "1.11.6"
     "@xtuc/long" "4.2.2"
-
-"@xelene/tgui@2.0.6":
-  version "2.0.6"
-  resolved "https://registry.yarnpkg.com/@xelene/tgui/-/tgui-2.0.6.tgz#fe3d8b98034ba56367728332915b99ca5a0f4b76"
-  integrity sha512-del9T8Mi8o1bMxS7+FeDEzdQkGV/d7Fdoohs0ZG6tBP3hlM11nf5dZbRE7lOUgNU+4nLgCGVZscfQwKRswOZlQ==
-  dependencies:
-    "@floating-ui/react-dom" "^2.0.8"
-    "@swc/helpers" "^0.5.3"
-    "@twa-dev/types" "^7.0.0"
-    "@xelene/vaul-with-scroll-fix" "0.1.4"
 
 "@xelene/vaul-with-scroll-fix@0.1.4":
   version "0.1.4"

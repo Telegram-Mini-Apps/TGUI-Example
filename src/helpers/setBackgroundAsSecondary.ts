@@ -1,4 +1,4 @@
-import { getTelegramData } from '@xelene/tgui/dist/helpers/telegram';
+import { getTelegramData } from '@telegram-apps/telegram-ui/dist/helpers/telegram';
 
 export const setBackgroundAsSecondary = () => {
   const telegramData = getTelegramData();

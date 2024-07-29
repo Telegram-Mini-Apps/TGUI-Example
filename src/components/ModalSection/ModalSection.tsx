@@ -1,5 +1,5 @@
 import styles from './ModalSection.module.css';
-import { Button, Modal, Placeholder, Section } from '@xelene/tgui';
+import { Button, Modal, Placeholder, Section } from '@telegram-apps/telegram-ui';
 
 const PlaceholderImage = () => (
   <img

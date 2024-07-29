@@ -1,9 +1,9 @@
 import { ReactNode } from 'react';
-import { Cell, IconContainer, Section } from '@xelene/tgui';
+import { Cell, IconContainer, Section } from '@telegram-apps/telegram-ui';
 
-import { Icon28Chat } from '@xelene/tgui/dist/icons/28/chat';
-import { Icon28Devices } from '@xelene/tgui/dist/icons/28/devices';
-import { Icon28Stats } from '@xelene/tgui/dist/icons/28/stats';
+import { Icon28Chat } from '@telegram-apps/telegram-ui/dist/icons/28/chat';
+import { Icon28Devices } from '@telegram-apps/telegram-ui/dist/icons/28/devices';
+import { Icon28Stats } from '@telegram-apps/telegram-ui/dist/icons/28/stats';
 
 type CellProps = {
   id: number;

@@ -1,5 +1,5 @@
 import styles from './TimelineSection.module.css';
-import { Section, Timeline } from '@xelene/tgui';
+import { Section, Timeline } from '@telegram-apps/telegram-ui';
 
 const TIMELINE_ITEMS = [
   {

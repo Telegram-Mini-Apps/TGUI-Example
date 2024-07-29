@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { AppRoot, List } from '@xelene/tgui';
+import { AppRoot, List } from '@telegram-apps/telegram-ui';
 import { CellSection } from './components/CellSection';
 import { FormSection } from './components/FormSection/FormSection';
 import { BannerSection } from './components/BannerSection';

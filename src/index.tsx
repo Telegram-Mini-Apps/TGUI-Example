@@ -1,4 +1,4 @@
-import '@xelene/tgui/dist/styles.css';
+import '@telegram-apps/telegram-ui/dist/styles.css';
 import './index.css';
 
 import { createRoot } from 'react-dom/client';

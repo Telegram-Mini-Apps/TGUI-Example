@@ -1,7 +1,7 @@
 import { useRef, useState } from 'react';
 import styles from './TooltipSection.module.css';
 
-import { Banner, Button, Section, Tooltip } from '@xelene/tgui';
+import { Banner, Button, Section, Tooltip } from '@telegram-apps/telegram-ui';
 
 export const TooltipSection = () => {
   const ref = useRef(null);

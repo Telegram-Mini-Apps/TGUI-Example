@@ -1,4 +1,4 @@
-import { Banner, Button, Image, Section } from '@xelene/tgui';
+import { Banner, Button, Image, Section } from '@telegram-apps/telegram-ui';
 
 const TON_SITE_LINK = 'https://ton.space/';
 
